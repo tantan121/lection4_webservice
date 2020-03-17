@@ -4,7 +4,7 @@ install:
   - sudo apt update
   - sudo apt install npm chromium-browser
   - sudo npm install -g npm@latest
-  - ln -s /usr/bin/nodejs /usr/bin/node
+  - sudo ln -s /usr/bin/nodejs /usr/bin/node
   - sudo npm install -g @marp-team/marp-cli
 
 script:
