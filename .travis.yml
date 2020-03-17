@@ -2,10 +2,11 @@ languange: python
 
 install:
   - sudo apt update
-  - sudo apt install -y chromium-browser wget tar
-  - wget https://github.com/marp-team/marp-cli/releases/download/v0.17.2/marp-cli-v0.17.2-linux.tar.gz
-  - tar xf marp-cli-v0.17.2-linux.tar.gz # костыль из-за бага в npm
+  - sudo apt install -y chromium-browser
+  - curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+  - sudo apt-get install -y nodejs npm
+  - sudo npm install -g @marp-team/marp-cli
 
 script:
   - python3 compile_md.py --output _compiled.md lection/
-  - ./marp --pdf _compiled.md
+  - marp --pdf _compiled.md
