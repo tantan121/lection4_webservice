@@ -1,0 +1,9 @@
+languange: python
+
+install:
+  - sudo apt install npm chromium-browser
+  - sudo npm install -g @marp-team/marp-cli
+
+script:
+  - python3 compile_md.py --output _compiled.md lection/
+  - marp --pdf _compiled.md
