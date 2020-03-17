@@ -8,4 +8,4 @@ install:
 
 script:
   - python3 compile_md.py --output _compiled.md lection/
-  - marp --pdf _compiled.md
+  - ./marp --pdf _compiled.md
