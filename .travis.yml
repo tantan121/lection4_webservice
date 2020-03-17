@@ -2,9 +2,9 @@ languange: python
 
 install:
   - sudo apt update
-  - sudo apt install -y chromium-browser
   - curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
   - sudo apt-get install -y nodejs
+  - sudo npm install -g puppeteer
   - sudo npm install -g @marp-team/marp-cli
 
 script:
