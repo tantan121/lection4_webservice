@@ -1,11 +1,14 @@
 languange: python
+sudo: false
+addons:
+  chrome: stable
 
 install:
-  - sudo apt update
-  - curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-  - sudo apt-get install -y nodejs
-  - sudo npm install -g puppeteer --unsafe-perm=true
-  - sudo npm install -g @marp-team/marp-cli
+  - apt update
+  - curl -sL https://deb.nodesource.com/setup_10.x | bash -
+  - apt-get install -y nodejs
+  - npm install -g puppeteer --unsafe-perm=true
+  - npm install -g @marp-team/marp-cli
 
 script:
   - python3 compile_md.py --output _compiled.md lection/
