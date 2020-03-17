@@ -4,7 +4,8 @@ install:
   - sudo apt update
   - sudo apt install npm chromium-browser
   - sudo npm install -g npm@latest
-  - sudo npm install -g @marp-team/marp-cli
+  - whereis npm
+  - sudo /usr/local/bin/npm install -g @marp-team/marp-cli
 
 script:
   - python3 compile_md.py --output _compiled.md lection/
