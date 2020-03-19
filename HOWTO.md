@@ -50,7 +50,8 @@
 * в [Visual Studio Code](https://code.visualstudio.com/) при предустановленном Git CLI;
 * [Git CLI](https://git-scm.com/downloads);
 * [SourceTree](https://www.sourcetreeapp.com/);
-* [Sublime Merge](https://www.sublimemerge.com/).
+* [Sublime Merge](https://www.sublimemerge.com/);
+* [GitHub Desktop](https://desktop.github.com/) (Windows only).
 
 ### Git CLI
 
