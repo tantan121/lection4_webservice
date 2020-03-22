@@ -7,9 +7,10 @@ MARP_HEADER = ["---\n", "marp: true"]
 
 
 def get_all_files(directory: str) -> Generator:
+    result = []
     for root, _, files in os.walk(directory):
-        yield from (os.path.join(root, f) for f in files)
-
+        result.extend(os.path.join(root, f) for f in files)
+    yield from sorted(result)
 
 def get_md_files(directory: str) -> List[Path]:
     files = (Path(p) for p in get_all_files(directory))
