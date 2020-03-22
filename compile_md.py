@@ -3,7 +3,11 @@ import argparse
 from pathlib import Path
 from typing import List, Generator
 
-MARP_HEADER = ["---\n", "marp: true"]
+STYLE = """
+  section {
+    font-size: 100%;
+  }"""
+MARP_HEADER = ["---\n", "marp: true\n", "style: |" + STYLE]
 
 
 def get_all_files(directory: str) -> Generator:
