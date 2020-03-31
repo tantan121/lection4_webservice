@@ -10,4 +10,4 @@
 
 Лучше всего он подходит для тех, кто занимается разработкой API, а также прототипированием и разработкой крупных веб-приложений, таких как CMS.
 
-<!-- _footer: https://web-academy.com.ua/stati/340-9-python \n https://techrocks.ru/2018/11/20/best-python-frameworks/ -->
+<!-- _footer: https://www.djangoproject.com/ \n https://flask.palletsprojects.com/en/1.1.x/ \n https://trypyramid.com/documentation.html-->
