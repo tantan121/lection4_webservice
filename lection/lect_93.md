@@ -10,4 +10,4 @@
 
 Лучше всего он подходит для тех, кто занимается разработкой API, а также прототипированием и разработкой крупных веб-приложений, таких как CMS.
 
-<!-- _footer: https://www.djangoproject.com/ \n https://flask.palletsprojects.com/en/1.1.x/ \n https://trypyramid.com/documentation.html-->
+<!-- _footer: Официальная документация Django [Электронный ресурс]. URL: https://www.djangoproject.com/ (дата обращения: 25.03.2020)  \n Официальная документация Flask [Электронный ресурс]. URL: https://flask.palletsprojects.com/en/1.1.x/ (дата обращения: 25.03.2020)  \n Официальная документация Pyramid [Электронный ресурс]. URL: https://trypyramid.com/documentation.html (дата обращения: 23.03.2020)-->
